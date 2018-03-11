@@ -1,0 +1,10 @@
+build/
+.gradle/
+gradle/
+.externalNativeBuild/
+local.properties
+proguard-rules.pro
+
+# idea
+*.iml
+.idea/

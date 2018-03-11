@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="de.uni_passau.taintdroid_hack.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/hack1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/holo_green_light"
+                android:text="@string/hack1" />
+
+            <Button
+                android:id="@+id/hack2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/hack2" />
+
+            <Button
+                android:id="@+id/hack3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/hack3" />
+
+            <Button
+                android:id="@+id/hack4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/hack4" />
+
+            <Button
+                android:id="@+id/hack5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/hack5" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:theme="@style/LinearProgress"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="100pt"
+        android:layout_height="40pt"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:progress="0"
+        android:max="100"
+        android:visibility="gone"
+        />
+
+</FrameLayout>
+

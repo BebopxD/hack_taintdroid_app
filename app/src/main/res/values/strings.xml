@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Taintdroid-Hack</string>
+    <string name="action_settings">Settings</string>
+    <string name="hack1">Send contacts regularly</string>
+    <string name="hack2">Send contacts (obfuscated, Java)</string>
+    <string name="hack3">Send contacts (obfuscated, Network in C++)</string>
+    <string name="hack4">Send contacts (obfuscated, Untaint in C++)</string>
+    <string name="hack5">Send contacts (obfuscated, Filesystem in C++)</string>
+    <string name="create_contacts_action">Create Contacts</string>
+</resources>
