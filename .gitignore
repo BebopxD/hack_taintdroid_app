@@ -1,9 +1,9 @@
 build/
 .gradle/
-gradle/
 .externalNativeBuild/
 local.properties
 proguard-rules.pro
+*.jar
 
 # idea
 *.iml
